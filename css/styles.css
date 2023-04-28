@@ -35,6 +35,7 @@ address {
 body {
   font-family: var(--main-font-family);
   color: var(--primary-text-color-dark);
+  background-color: var(--white-bg);
 }
 
 /* header */
@@ -49,19 +50,23 @@ body {
   );
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-text-color-theme-light);
+  color: var(--brand-primary-color);
 }
 
 .logo-footer {
   color: var(--secondary-text-color-light);
 }
 
-.logo-accent {
-  color: var(--brand-primary-color);
+.logo-dark {
+  color: var(--secondary-text-color-dark);
+}
+
+.logo-light {
+  color: var(--secondary-text-color-light);
 }
 
 .nav-link {
