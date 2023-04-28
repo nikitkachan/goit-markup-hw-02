@@ -83,7 +83,7 @@ body {
   color: var(--button-color-pressed);
 }
 
-.contact-mail-link {
+.contact-item-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -92,22 +92,8 @@ body {
   color: var(--primary-text-color-dark);
 }
 
-.contact-mail-link:hover,
-.contact-mail-link:focus {
-  color: var(--button-color-pressed);
-}
-
-.contact-tel-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color-dark);
-}
-
-.contact-tel-link:hover,
-.contact-tel-link:focus {
+.contact-item-link:hover,
+.contact-item-link:focus {
   color: var(--button-color-pressed);
 }
 
